@@ -1,0 +1,5 @@
+rootProject.name = 'antlr_learn'
+
+include ":calc"
+include ":java_exractor"
+include ":rows"
