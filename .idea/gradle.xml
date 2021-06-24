@@ -9,7 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/XMLParser" />
             <option value="$PROJECT_DIR$/calc" />
+            <option value="$PROJECT_DIR$/data" />
             <option value="$PROJECT_DIR$/java_exractor" />
             <option value="$PROJECT_DIR$/rows" />
           </set>
