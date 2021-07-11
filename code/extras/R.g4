@@ -71,7 +71,6 @@ form:   ID
     ;
 
 sublist : sub (',' sub)* ;
-
 sub :   expr
     |   ID '='
     |   ID '=' expr
@@ -137,7 +136,6 @@ HEX_ESCAPE
 ID  :   '.' (LETTER|'_'|'.') (LETTER|DIGIT|'_'|'.')*
     |   LETTER (LETTER|DIGIT|'_'|'.')*
     ;
-    
 fragment LETTER  : [a-zA-Z] ;
 
 USER_OP :   '%' .*? '%' ;

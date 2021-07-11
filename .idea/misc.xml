@@ -73,6 +73,46 @@
           <option name="language" value="" />
           <option name="generateVisitor" value="true" />
         </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/exr/src/Expr.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\Users\mx\IdeaProjects\antlr_learn\exr\src\main\java" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="gen" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/csv_2_json/src/CSV.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\Users\mx\IdeaProjects\antlr_learn\csv_2_json\src\main\java" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="csv" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/csv_2_json/src/JSON.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\Users\mx\IdeaProjects\antlr_learn\csv_2_json\src\main\java" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="json" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/cymbol_lang/src/Cymbol.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\Users\mx\IdeaProjects\antlr_learn\cymbol_lang\src\main\java" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="gen" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
       </list>
     </option>
   </component>

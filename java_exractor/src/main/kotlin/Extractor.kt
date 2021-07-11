@@ -3,6 +3,8 @@ import gen.JavaLexer
 import gen.JavaParser
 import org.antlr.v4.runtime.ANTLRInputStream
 import org.antlr.v4.runtime.CommonTokenStream
+import org.antlr.v4.runtime.TokenStream
+import org.antlr.v4.runtime.TokenStreamRewriter
 import org.antlr.v4.runtime.tree.ParseTreeWalker
 import java.io.File
 import java.io.FileInputStream
@@ -21,6 +23,15 @@ class Extractor {
             val walker = ParseTreeWalker()
             walker.walk(ExtractInterfaceListener(parse),tree)
         }
+    }
+}
+
+class InsertSerialIdListener(tokens: TokenStream) : JavaBaseListener() {
+    private val rewrite = TokenStreamRewriter(tokens)
+
+    override fun enterClassBody(ctx: JavaParser.ClassBodyContext) {
+        val field = "\n\t public static final long serialVersionUID = 1L;"
+        rewrite.insertAfter(ctx.start, field)
     }
 }
 

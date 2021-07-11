@@ -5,4 +5,9 @@ include ":java_exractor"
 include ":rows"
 include 'data'
 include 'XMLParser'
+include 'dot_lang'
+include 'r_lang'
+include 'cymbol_lang'
+include 'exr'
+include 'csv_2_json'
 

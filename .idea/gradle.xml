@@ -11,8 +11,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/XMLParser" />
             <option value="$PROJECT_DIR$/calc" />
+            <option value="$PROJECT_DIR$/csv_2_json" />
+            <option value="$PROJECT_DIR$/cymbol_lang" />
             <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/dot_lang" />
+            <option value="$PROJECT_DIR$/exr" />
             <option value="$PROJECT_DIR$/java_exractor" />
+            <option value="$PROJECT_DIR$/r_lang" />
             <option value="$PROJECT_DIR$/rows" />
           </set>
         </option>
